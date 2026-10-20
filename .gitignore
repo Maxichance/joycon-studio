@@ -1,0 +1,25 @@
+# Dépendances et sorties de build
+node_modules
+dist
+dist-ssr
+src-tauri/target
+src-tauri/gen
+*.local
+*.log
+
+# Éditeur / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local uniquement (non distribué)
+legacy/
+tools/*
+!tools/cdp.mjs
+!tools/guard-dev-only.mjs
+jctool_*
+todo/
+captures/
