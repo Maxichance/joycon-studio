@@ -2,7 +2,7 @@
   "name": "joycon-studio",
   "productName": "Joycon Studio",
   "private": true,
-  "version": "6.0.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "Atelier de bureau pour Joy-Con : couleurs, sticks, vibration, caméra IR. Hors-ligne, natif Windows.",
   "scripts": {

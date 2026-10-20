@@ -43,7 +43,7 @@ Les manettes Switch 2 et la manette Pro utilisent un autre protocole et ne sont 
 
 ## Installation
 
-Téléchargez `Joycon Studio_x.y.z_x64-setup.exe` depuis la page [Releases](../../releases), ou compilez-le (voir plus bas).
+Téléchargez l'installateur (le fichier qui se termine par `-setup.exe`) depuis la page [Releases](../../releases), ou compilez-le (voir plus bas).
 
 L'installateur n'est pas signé : Windows SmartScreen peut afficher « Windows a protégé votre ordinateur ». Cliquez sur **Informations complémentaires**, puis **Exécuter quand même**. Chaque publication contient un fichier `.sha256` : comparez-le au résultat de `Get-FileHash <fichier>` dans PowerShell pour vérifier le téléchargement.
 
@@ -87,7 +87,7 @@ Les captures ci-dessus sont générées par `tools/screenshots.mjs` à partir de
 
 ## Publier une version
 
-Pousser un tag comme `v6.0.0` lance `.github/workflows/release.yml` : il construit l'installateur et le joint, avec sa somme SHA-256, à une publication GitHub.
+Pousser un tag comme `v1.0.0` lance `.github/workflows/release.yml` : il construit l'installateur et le joint, avec sa somme SHA-256, à une publication GitHub.
 
 ## Crédits
 

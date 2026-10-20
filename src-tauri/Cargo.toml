@@ -1,6 +1,6 @@
 [package]
 name = "joycon-studio"
-version = "6.0.0"
+version = "1.0.0"
 description = "Atelier de bureau pour Joy-Con"
 edition = "2021"
 rust-version = "1.77.2"
